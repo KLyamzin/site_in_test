@@ -10,8 +10,32 @@
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-    
+
 }
+.clicky{
+    font-size: 28px;
+    font-family: Helvetica, Times New Roman, sans-serif;
+}.clicky.one{
+    background-color: black;
+    color: azure;
+}
+.clicky.two{
+    background-color: yellow;
+
+}
+.clicky.three{
+    background-color: rgb(255, 37, 37);
+    color: white;
+}
+.clicky.three:hover {
+    color: red;
+    background-color: yellow;
+}
+.clicky.three:active{
+    background-color: gray;
+}
+
+
 .odd{
     font-family: Verdana, DejaVu Sans, sans-serif;
     background-color: #d87093;
