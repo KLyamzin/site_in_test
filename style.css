@@ -4,5 +4,35 @@
     font-size: 32px;
     text-align: center;
     font-weight: bold;
+}
+#me-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    
+}
+.odd{
+    font-family: Verdana, DejaVu Sans, sans-serif;
+    background-color: #d87093;
+}
+#eventwo{
+    color: blue;
+    font-size: 36px;
+}
+.odd.extra{
+    font-size: 24px;
+}
+#evenfour,
+#even-six{
+    font-size: 40px;
+    color: rgb(1, 133, 109);
+    background-color: darksalmon;
+    margin: 20px;
+    border-style: double;
+    border-color: mediumvioletred;
+    border-width: 10px;
+    
 
+  
 }
