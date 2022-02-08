@@ -15,12 +15,19 @@
 .clicky{
     font-size: 28px;
     font-family: Helvetica, Times New Roman, sans-serif;
-}.clicky.one{
+    border-radius: 17px;
+    cursor: pointer;
+    border: none;
+    padding: 5px 15px;
+    margin-top: 10px;
+    display: block;
+}
+.clicky.one{
     background-color: black;
     color: azure;
 }
 .clicky.two{
-    background-color: yellow;
+    background-color: seagreen;
 
 }
 .clicky.three{
