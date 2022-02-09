@@ -1,10 +1,6 @@
-.Headers{
-    background-color: red;
-    color: white;
-    font-size: 32px;
-    text-align: center;
-    font-weight: bold;
-}
+
+
+/* the image of me on the top */
 #me-image{
     display: block;
     margin-left: auto;
@@ -12,6 +8,27 @@
     width: 50%;
 
 }
+/* H3 headers styled */
+h3{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 30px 90px;
+    border-style: groove;
+    border-width: 10px;
+    border-color: rgb(250, 203, 140);
+   
+}
+/* Sold Items Pictures */
+.proportioned.item1{
+   width: 300px;
+   height: auto;
+}
+.proportioned.item2{
+   width: 200px;
+   height:400px;
+}
+
+/* Buttons */
 .clicky{
     font-size: 28px;
     font-family: Helvetica, Times New Roman, sans-serif;
@@ -42,7 +59,7 @@
     background-color: gray;
 }
 
-
+/* Some text with different styles */
 .odd{
     font-family: Verdana, DejaVu Sans, sans-serif;
     background-color: #d87093;
@@ -63,7 +80,16 @@
     border-style: double;
     border-color: mediumvioletred;
     border-width: 10px;
-    
-
-  
+      
 }
+
+/* other texts 
+Descendant Combinator */
+
+.parent{
+color: red;
+background-color: yellow;
+font-size: 20px;
+text-align: center;
+}
+
