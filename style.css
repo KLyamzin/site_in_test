@@ -1,136 +1,51 @@
-
-
-/* the image of me on the top */
-#me-image{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-
+body {
+  /* height: 100%;
+  width: 100%; */
 }
-/* H3 headers styled */
-h3{
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin: 30px 90px;
-    border-style: groove;
-    border-width: 10px;
-    border-color: rgb(250, 203, 140);
-   
+.container {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  font-size: 1.2rem;
+  font-weight: 300;
+  letter-spacing: 0.05rem;
+  color: rgb(31, 54, 82);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+  row-gap: 15px;
+  vertical-align: middle;
 }
-/* Sold Items Pictures */
-.proportioned.item1{
-   width: 300px;
-   height: auto;
+.header,
+.footer {
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: auto;
+  /* flex: 1 1 50%; */
 }
-.proportioned.item2{
-   width: 200px;
-   height:400px;
+p,
+ul {
+  padding: 1rem 1.5rem;
 }
-
-/* Buttons */
-
-.clicky{
-    font-size: 28px;
-    font-family: Helvetica, Times New Roman, sans-serif;
-    border-radius: 17px;
-    cursor: pointer;
-    border: none;
-    padding: 5px 15px;
-    margin-top: 10px;
-    margin: auto;
-    display:inline-table;
-    /* align-items: center;
-    align-self: center;
-    align-content: center; */
+.header img {
+  max-height: 60px;
+  flex: 0 1 0%;
 }
-.clicky.one{
-    background-color: black;
-    color: azure;
+.images img {
+  padding: 10px;
+  /* max-width: 90%; */
+  /* height: auto; */
+  /* flex: 1 1 50%; */
+  align-items: center;
+  flex-wrap: nowrap;
 }
-.clicky.two{
-    background-color: seagreen;
-
-}
-.clicky.three{
-    background-color: rgb(255, 37, 37);
-    color: white;
-}
-.clicky.three:hover {
-    color: red;
-    background-color: yellow;
-}
-.clicky.three:active{
-    background-color: gray;
-}
-
-/* Some text with different styles */
-.odd{
-    font-family: Verdana, DejaVu Sans, sans-serif;
-    background-color: #d87093;
-}
-#eventwo{
-    color: blue;
-    font-size: 36px;
-}
-.odd.extra{
-    font-size: 24px;
-}
-#evenfour,
-#even-six{
-    font-size: 40px;
-    color: rgb(1, 133, 109);
-    background-color: darksalmon;
-    margin: 20px;
-    border-style: double;
-    border-color: mediumvioletred;
-    border-width: 10px;
-      
-}
-
-/* other texts 
-Descendant Combinator */
-
-.parent{
-color: red;
-background-color: yellow;
-font-size: 20px;
-text-align: center;
-}
-/* CSS Methods */
-
-.para,
-.small-para {
-  color: hsl(0, 100%, 50%);
-}
-
-.para.small-para {
-  font-size: 12px;
-}
-
-.para {
-  font-size: 22px;
-}
-
-#confirm-button {
-  background: green;
-  color: white;
-  font-size: 20px;
-  font-weight: bold;
-} 
-
-.cancel {
-  background-color: #ffc0cb;
-  color: black;
-  font-size: 20px;
-}
-
-.child {
-  color: red;
-  font-size: 14px;
-}
-
-.div.text {
-  color: green;
-  font-size: 28px;
+.item1,
+.item2 {
+  flex: 0 1 10%;
+  flex-wrap: nowrap;
 }
